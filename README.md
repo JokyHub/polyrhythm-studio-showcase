@@ -3,6 +3,8 @@
 > Showcase repository. It presents the design of a multi-agent content pipeline that has been running in
 > production since October 2026, and the plan to rebuild it on LangGraph with a conversational layer
 > (Hermes Agent). The production repository is private. [Version française](README.fr.md)
+>
+> **Pitch deck (French):** [Polyrhythm Studio — pitch](https://claude.ai/artifact/HuzaBwHC89rPKnX1V5ratd)
 
 Polyrhythm is an English-language music media covering **jazz, funk & soul, Afrobeat & West African music, and
 Latin & Caribbean music**. Every day, a team of specialised agents proposes topics, researches and sources every

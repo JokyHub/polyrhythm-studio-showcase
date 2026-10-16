@@ -3,6 +3,8 @@
 > Dépôt vitrine. Il présente la conception d'un pipeline multi-agents en production depuis octobre 2026, et le
 > plan pour le reconstruire sur LangGraph avec une couche conversationnelle (Hermes Agent). Le dépôt de
 > production est privé. [English version](README.md)
+>
+> **Présentation :** [Polyrhythm Studio — pitch](https://claude.ai/artifact/HuzaBwHC89rPKnX1V5ratd)
 
 Polyrhythm est un média musical en anglais : **jazz, funk & soul, Afrobeat et musiques d'Afrique de l'Ouest,
 musiques latines et caribéennes**. Chaque jour, une équipe d'agents spécialisés propose des sujets, vérifie et
