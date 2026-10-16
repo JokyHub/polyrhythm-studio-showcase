@@ -1,0 +1,41 @@
+{
+  "id": "pr-20261013-3",
+  "slot": "2026-10-13T18:00:00Z",
+  "role": "The story",
+  "genre": "afrobeat",
+  "pillar": "Scenes, lineage, and context",
+  "profile": "polyrhythm_studio",
+  "handle": "@polyrhythmzik",
+  "topic_source": "auto (no reply)",
+  "subject_hint": "Orchestre Poly-Rythmo de Cotonou — The 1st Album (1973) — A thread on the Cotonou band founded in 1968 as Orchestre Poly-Disco, which mixed vodun rhythms with highlife, Afro-Cuban jazz and American funk, recorded hundreds of songs, and reformed in 2009 after European reissue labels brought the music back. Notes: The '~500 songs' figure and the influence list come from Wikipedia, which quotes the Austin Chronicle and The Quietus; attribute them or find primary sources. The page gives no label for the 1973 original. Clément died in 2012 and the band later issued Cotonou Club (Strut, 2011) and Madjafalao (Because Music, 2016). Check whether Analog Africa or Strut has an official listening page.",
+  "artist": "Orchestre Poly-Rythmo de Cotonou (founded by Mélomé Clément; with Vincent Ahéhéhinnou, Papillon, Yehouessi Léopold, Pierre Loko)",
+  "work": "The 1st Album (1973; Analog Africa reissue 2011)",
+  "calendar": null,
+  "source_url": "https://en.wikipedia.org/wiki/Orchestre_Poly-Rythmo_de_Cotonou",
+  "format": "Context post (thread)",
+  "media": "card",
+  "visual": {
+    "format": "card",
+    "genre": "afrobeat",
+    "size": "1080x1350",
+    "seed": 468,
+    "handle": "@polyrhythmzik",
+    "note": "Original graphic",
+    "audio": "mixkit-735",
+    "card": {
+      "kicker": "The story",
+      "title": "Orchestre Poly‑Rythmo de Cotonou",
+      "sub": "The 1st Album · cut twice in Lagos, 1973",
+      "credits": [
+        [
+          "Bandleader —",
+          "Mélomé Clément"
+        ],
+        [
+          "Songs —",
+          "Vincent Ahéhéhinnou"
+        ]
+      ]
+    }
+  }
+}

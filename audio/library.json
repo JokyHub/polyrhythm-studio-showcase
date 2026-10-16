@@ -1,0 +1,682 @@
+{
+ "rules": "See audio/README.md and docs/polyrhythm-scope.md. Every track needs a complete licence record.",
+ "tracks": [
+  {
+   "id": "mixkit-526",
+   "file": "tracks/mixkit-526-swing-is-the-answer.mp3",
+   "title": "Swing is the Answer",
+   "artist": "Diego Nava",
+   "genres": [
+    "jazz"
+   ],
+   "mood": "swinging, medium-up",
+   "length_s": 109,
+   "source_url": "https://assets.mixkit.co/music/526/526.mp3",
+   "licence": "Mixkit Stock Music Free License",
+   "licence_url": "https://mixkit.co/license/#musicFree",
+   "retrieved": "2026-10-10",
+   "evidence": "evidence/mixkit-stock-music-free-license-2026-10-10.pdf",
+   "attribution": null,
+   "status": "ok",
+   "listened": false
+  },
+  {
+   "id": "mixkit-652",
+   "file": "tracks/mixkit-652-soul-jazz.mp3",
+   "title": "Soul Jazz",
+   "artist": "Francisco Alvear",
+   "genres": [
+    "jazz"
+   ],
+   "mood": "soul-jazz groove",
+   "length_s": 135,
+   "source_url": "https://assets.mixkit.co/music/652/652.mp3",
+   "licence": "Mixkit Stock Music Free License",
+   "licence_url": "https://mixkit.co/license/#musicFree",
+   "retrieved": "2026-10-10",
+   "evidence": "evidence/mixkit-stock-music-free-license-2026-10-10.pdf",
+   "attribution": null,
+   "status": "ok",
+   "listened": false
+  },
+  {
+   "id": "mixkit-518",
+   "file": "tracks/mixkit-518-lonely-in-the-bar.mp3",
+   "title": "Lonely in the Bar",
+   "artist": "Diego Nava",
+   "genres": [
+    "jazz"
+   ],
+   "mood": "slow, late-night",
+   "length_s": 92,
+   "source_url": "https://assets.mixkit.co/music/518/518.mp3",
+   "licence": "Mixkit Stock Music Free License",
+   "licence_url": "https://mixkit.co/license/#musicFree",
+   "retrieved": "2026-10-10",
+   "evidence": "evidence/mixkit-stock-music-free-license-2026-10-10.pdf",
+   "attribution": null,
+   "status": "ok",
+   "listened": false
+  },
+  {
+   "id": "mixkit-1054",
+   "file": "tracks/mixkit-1054-blue-funk.mp3",
+   "title": "Blue Funk",
+   "artist": "Michael Ramir C.",
+   "genres": [
+    "funk"
+   ],
+   "mood": "bluesy funk",
+   "length_s": 143,
+   "source_url": "https://assets.mixkit.co/music/1054/1054.mp3",
+   "licence": "Mixkit Stock Music Free License",
+   "licence_url": "https://mixkit.co/license/#musicFree",
+   "retrieved": "2026-10-10",
+   "evidence": "evidence/mixkit-stock-music-free-license-2026-10-10.pdf",
+   "attribution": null,
+   "status": "ok",
+   "listened": false
+  },
+  {
+   "id": "mixkit-1141",
+   "file": "tracks/mixkit-1141-funky-triplets.mp3",
+   "title": "Funky Triplets",
+   "artist": "Michael Ramir C.",
+   "genres": [
+    "funk"
+   ],
+   "mood": "upbeat funk",
+   "length_s": 108,
+   "source_url": "https://assets.mixkit.co/music/1141/1141.mp3",
+   "licence": "Mixkit Stock Music Free License",
+   "licence_url": "https://mixkit.co/license/#musicFree",
+   "retrieved": "2026-10-10",
+   "evidence": "evidence/mixkit-stock-music-free-license-2026-10-10.pdf",
+   "attribution": null,
+   "status": "ok",
+   "listened": false
+  },
+  {
+   "id": "mixkit-842",
+   "file": "tracks/mixkit-842-ahead-of-time.mp3",
+   "title": "Ahead of Time",
+   "artist": "Michael Ramir C.",
+   "genres": [
+    "funk"
+   ],
+   "mood": "soul, warm",
+   "length_s": 125,
+   "source_url": "https://assets.mixkit.co/music/842/842.mp3",
+   "licence": "Mixkit Stock Music Free License",
+   "licence_url": "https://mixkit.co/license/#musicFree",
+   "retrieved": "2026-10-10",
+   "evidence": "evidence/mixkit-stock-music-free-license-2026-10-10.pdf",
+   "attribution": null,
+   "status": "ok",
+   "listened": false
+  },
+  {
+   "id": "mixkit-733",
+   "file": "tracks/mixkit-733-percussions-01.mp3",
+   "title": "Percussions 01",
+   "artist": "Lily J",
+   "genres": [
+    "afrobeat"
+   ],
+   "mood": "neutral percussion bed (not Afrobeat proper)",
+   "length_s": 102,
+   "source_url": "https://assets.mixkit.co/music/733/733.mp3",
+   "licence": "Mixkit Stock Music Free License",
+   "licence_url": "https://mixkit.co/license/#musicFree",
+   "retrieved": "2026-10-10",
+   "evidence": "evidence/mixkit-stock-music-free-license-2026-10-10.pdf",
+   "attribution": null,
+   "status": "ok",
+   "listened": false
+  },
+  {
+   "id": "mixkit-735",
+   "file": "tracks/mixkit-735-percussions-03.mp3",
+   "title": "Percussions 03",
+   "artist": "Lily J",
+   "genres": [
+    "afrobeat"
+   ],
+   "mood": "neutral percussion bed (not Afrobeat proper)",
+   "length_s": 108,
+   "source_url": "https://assets.mixkit.co/music/735/735.mp3",
+   "licence": "Mixkit Stock Music Free License",
+   "licence_url": "https://mixkit.co/license/#musicFree",
+   "retrieved": "2026-10-10",
+   "evidence": "evidence/mixkit-stock-music-free-license-2026-10-10.pdf",
+   "attribution": null,
+   "status": "ok",
+   "listened": false
+  },
+  {
+   "id": "mixkit-641",
+   "file": "tracks/mixkit-641-brazil-jazz.mp3",
+   "title": "Brazil Jazz",
+   "artist": "Francisco Alvear",
+   "genres": [
+    "latin"
+   ],
+   "mood": "Brazilian jazz feel",
+   "length_s": 141,
+   "source_url": "https://assets.mixkit.co/music/641/641.mp3",
+   "licence": "Mixkit Stock Music Free License",
+   "licence_url": "https://mixkit.co/license/#musicFree",
+   "retrieved": "2026-10-10",
+   "evidence": "evidence/mixkit-stock-music-free-license-2026-10-10.pdf",
+   "attribution": null,
+   "status": "ok",
+   "listened": false
+  },
+  {
+   "id": "mixkit-673",
+   "file": "tracks/mixkit-673-cuban-flavor.mp3",
+   "title": "Cuban Flavor",
+   "artist": "Francisco Alvear",
+   "genres": [
+    "latin"
+   ],
+   "mood": "Afro-Cuban feel",
+   "length_s": 119,
+   "source_url": "https://assets.mixkit.co/music/673/673.mp3",
+   "licence": "Mixkit Stock Music Free License",
+   "licence_url": "https://mixkit.co/license/#musicFree",
+   "retrieved": "2026-10-10",
+   "evidence": "evidence/mixkit-stock-music-free-license-2026-10-10.pdf",
+   "attribution": null,
+   "status": "ok",
+   "listened": false
+  },
+  {
+   "id": "mixkit-241",
+   "file": "tracks/mixkit-241-jamaican.mp3",
+   "title": "Jamaican",
+   "artist": "Arulo",
+   "genres": [
+    "latin"
+   ],
+   "mood": "reggae",
+   "length_s": 103,
+   "source_url": "https://assets.mixkit.co/music/241/241.mp3",
+   "licence": "Mixkit Stock Music Free License",
+   "licence_url": "https://mixkit.co/license/#musicFree",
+   "retrieved": "2026-10-10",
+   "evidence": "evidence/mixkit-stock-music-free-license-2026-10-10.pdf",
+   "attribution": null,
+   "status": "ok",
+   "listened": false
+  },
+  {
+   "id": "mixkit-528",
+   "file": "tracks/mixkit-528-you-got-jazz.mp3",
+   "title": "You Got Jazz",
+   "artist": "Diego Nava",
+   "genres": [
+    "jazz"
+   ],
+   "mood": "bright small-group swing",
+   "length_s": 99,
+   "source_url": "https://assets.mixkit.co/music/528/528.mp3",
+   "licence": "Mixkit Stock Music Free License",
+   "licence_url": "https://mixkit.co/license/#musicFree",
+   "retrieved": "2026-10-16",
+   "evidence": "evidence/mixkit-stock-music-free-license-2026-10-10.pdf",
+   "attribution": null,
+   "status": "ok",
+   "listened": false
+  },
+  {
+   "id": "mixkit-40",
+   "file": "tracks/mixkit-40-lounging-by-moonlight.mp3",
+   "title": "Lounging By Moonlight",
+   "artist": "Ahjay Stelino",
+   "genres": [
+    "jazz"
+   ],
+   "mood": "slow, smoky ballad",
+   "length_s": 94,
+   "source_url": "https://assets.mixkit.co/music/40/40.mp3",
+   "licence": "Mixkit Stock Music Free License",
+   "licence_url": "https://mixkit.co/license/#musicFree",
+   "retrieved": "2026-10-16",
+   "evidence": "evidence/mixkit-stock-music-free-license-2026-10-10.pdf",
+   "attribution": null,
+   "status": "ok",
+   "listened": false
+  },
+  {
+   "id": "mixkit-639",
+   "file": "tracks/mixkit-639-jazz-1.mp3",
+   "title": "Jazz 1",
+   "artist": "Francisco Alvear",
+   "genres": [
+    "jazz"
+   ],
+   "mood": "straight-ahead combo, medium",
+   "length_s": 133,
+   "source_url": "https://assets.mixkit.co/music/639/639.mp3",
+   "licence": "Mixkit Stock Music Free License",
+   "licence_url": "https://mixkit.co/license/#musicFree",
+   "retrieved": "2026-10-16",
+   "evidence": "evidence/mixkit-stock-music-free-license-2026-10-10.pdf",
+   "attribution": null,
+   "status": "ok",
+   "listened": false
+  },
+  {
+   "id": "mixkit-644",
+   "file": "tracks/mixkit-644-upbeat-jazz.mp3",
+   "title": "Upbeat Jazz",
+   "artist": "Francisco Alvear",
+   "genres": [
+    "jazz"
+   ],
+   "mood": "upbeat, brassy",
+   "length_s": 110,
+   "source_url": "https://assets.mixkit.co/music/644/644.mp3",
+   "licence": "Mixkit Stock Music Free License",
+   "licence_url": "https://mixkit.co/license/#musicFree",
+   "retrieved": "2026-10-16",
+   "evidence": "evidence/mixkit-stock-music-free-license-2026-10-10.pdf",
+   "attribution": null,
+   "status": "ok",
+   "listened": false
+  },
+  {
+   "id": "mixkit-1112",
+   "file": "tracks/mixkit-1112-nostalgic-night.mp3",
+   "title": "Nostalgic Night",
+   "artist": "Michael Ramir C.",
+   "genres": [
+    "jazz"
+   ],
+   "mood": "nostalgic, late-night",
+   "length_s": 124,
+   "source_url": "https://assets.mixkit.co/music/1112/1112.mp3",
+   "licence": "Mixkit Stock Music Free License",
+   "licence_url": "https://mixkit.co/license/#musicFree",
+   "retrieved": "2026-10-16",
+   "evidence": "evidence/mixkit-stock-music-free-license-2026-10-10.pdf",
+   "attribution": null,
+   "status": "ok",
+   "listened": false
+  },
+  {
+   "id": "mixkit-872",
+   "file": "tracks/mixkit-872-gimme-that-groove.mp3",
+   "title": "Gimme that Groove!",
+   "artist": "Michael Ramir C.",
+   "genres": [
+    "funk"
+   ],
+   "mood": "tight horn-funk groove",
+   "length_s": 88,
+   "source_url": "https://assets.mixkit.co/music/872/872.mp3",
+   "licence": "Mixkit Stock Music Free License",
+   "licence_url": "https://mixkit.co/license/#musicFree",
+   "retrieved": "2026-10-16",
+   "evidence": "evidence/mixkit-stock-music-free-license-2026-10-10.pdf",
+   "attribution": null,
+   "status": "ok",
+   "listened": false
+  },
+  {
+   "id": "mixkit-1147",
+   "file": "tracks/mixkit-1147-midnight-funk.mp3",
+   "title": "Midnight Funk",
+   "artist": "Michael Ramir C.",
+   "genres": [
+    "funk"
+   ],
+   "mood": "dark, slinky funk",
+   "length_s": 107,
+   "source_url": "https://assets.mixkit.co/music/1147/1147.mp3",
+   "licence": "Mixkit Stock Music Free License",
+   "licence_url": "https://mixkit.co/license/#musicFree",
+   "retrieved": "2026-10-16",
+   "evidence": "evidence/mixkit-stock-music-free-license-2026-10-10.pdf",
+   "attribution": null,
+   "status": "ok",
+   "listened": false
+  },
+  {
+   "id": "mixkit-1003",
+   "file": "tracks/mixkit-1003-keep-the-funk-on.mp3",
+   "title": "Keep the Funk ON",
+   "artist": "Michael Ramir C.",
+   "genres": [
+    "funk"
+   ],
+   "mood": "driving party funk",
+   "length_s": 150,
+   "source_url": "https://assets.mixkit.co/music/1003/1003.mp3",
+   "licence": "Mixkit Stock Music Free License",
+   "licence_url": "https://mixkit.co/license/#musicFree",
+   "retrieved": "2026-10-16",
+   "evidence": "evidence/mixkit-stock-music-free-license-2026-10-10.pdf",
+   "attribution": null,
+   "status": "ok",
+   "listened": false
+  },
+  {
+   "id": "mixkit-1109",
+   "file": "tracks/mixkit-1109-my-mind-goes-wah-wah.mp3",
+   "title": "My Mind Goes Wah Wah",
+   "artist": "Michael Ramir C.",
+   "genres": [
+    "funk"
+   ],
+   "mood": "wah guitar, playful",
+   "length_s": 114,
+   "source_url": "https://assets.mixkit.co/music/1109/1109.mp3",
+   "licence": "Mixkit Stock Music Free License",
+   "licence_url": "https://mixkit.co/license/#musicFree",
+   "retrieved": "2026-10-16",
+   "evidence": "evidence/mixkit-stock-music-free-license-2026-10-10.pdf",
+   "attribution": null,
+   "status": "ok",
+   "listened": false
+  },
+  {
+   "id": "mixkit-868",
+   "file": "tracks/mixkit-868-dry-gin.mp3",
+   "title": "Dry Gin",
+   "artist": "Michael Ramir C.",
+   "genres": [
+    "funk"
+   ],
+   "mood": "mid-tempo, bluesy",
+   "length_s": 108,
+   "source_url": "https://assets.mixkit.co/music/868/868.mp3",
+   "licence": "Mixkit Stock Music Free License",
+   "licence_url": "https://mixkit.co/license/#musicFree",
+   "retrieved": "2026-10-16",
+   "evidence": "evidence/mixkit-stock-music-free-license-2026-10-10.pdf",
+   "attribution": null,
+   "status": "ok",
+   "listened": false
+  },
+  {
+   "id": "mixkit-43",
+   "file": "tracks/mixkit-43-true-love.mp3",
+   "title": "True Love",
+   "artist": "Ahjay Stelino",
+   "genres": [
+    "funk"
+   ],
+   "mood": "soul ballad, warm",
+   "length_s": 114,
+   "source_url": "https://assets.mixkit.co/music/43/43.mp3",
+   "licence": "Mixkit Stock Music Free License",
+   "licence_url": "https://mixkit.co/license/#musicFree",
+   "retrieved": "2026-10-16",
+   "evidence": "evidence/mixkit-stock-music-free-license-2026-10-10.pdf",
+   "attribution": null,
+   "status": "ok",
+   "listened": false
+  },
+  {
+   "id": "mixkit-39",
+   "file": "tracks/mixkit-39-latin-lovers.mp3",
+   "title": "Latin Lovers",
+   "artist": "Ahjay Stelino",
+   "genres": [
+    "latin"
+   ],
+   "mood": "bossa nova, gentle",
+   "length_s": 95,
+   "source_url": "https://assets.mixkit.co/music/39/39.mp3",
+   "licence": "Mixkit Stock Music Free License",
+   "licence_url": "https://mixkit.co/license/#musicFree",
+   "retrieved": "2026-10-16",
+   "evidence": "evidence/mixkit-stock-music-free-license-2026-10-10.pdf",
+   "attribution": null,
+   "status": "ok",
+   "listened": false
+  },
+  {
+   "id": "incompetech-kumasi-groove",
+   "file": "tracks/incompetech-kumasi-groove.mp3",
+   "title": "Kumasi Groove",
+   "artist": "Kevin MacLeod",
+   "genres": [
+    "afrobeat"
+   ],
+   "mood": "laid-back West African-style drum ensemble",
+   "length_s": 120,
+   "source_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Kumasi%20Groove.mp3",
+   "licence": "CC BY 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+   "retrieved": "2026-10-16",
+   "evidence": "evidence/incompetech-licenses-2026-10-16.html",
+   "attribution": "\"Kumasi Groove\" Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 (creativecommons.org/licenses/by/4.0)",
+   "edited": "first 120 s, 4 s fade-out",
+   "status": "ok",
+   "listened": false
+  },
+  {
+   "id": "incompetech-kumasi-groove-plus-flugelhorn",
+   "file": "tracks/incompetech-kumasi-groove-plus-flugelhorn.mp3",
+   "title": "Kumasi Groove (plus flugelhorn)",
+   "artist": "Kevin MacLeod",
+   "genres": [
+    "afrobeat"
+   ],
+   "mood": "drum ensemble with flugelhorn",
+   "length_s": 120,
+   "source_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Kumasi%20Groove%20Flugelhorn.mp3",
+   "licence": "CC BY 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+   "retrieved": "2026-10-16",
+   "evidence": "evidence/incompetech-licenses-2026-10-16.html",
+   "attribution": "\"Kumasi Groove (plus flugelhorn)\" Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 (creativecommons.org/licenses/by/4.0)",
+   "edited": "first 120 s, 4 s fade-out",
+   "status": "ok",
+   "listened": false
+  },
+  {
+   "id": "incompetech-allada",
+   "file": "tracks/incompetech-allada.mp3",
+   "title": "Allada",
+   "artist": "Kevin MacLeod",
+   "genres": [
+    "afrobeat"
+   ],
+   "mood": "bright, phasing marimbas, djembe",
+   "length_s": 120,
+   "source_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Allada.mp3",
+   "licence": "CC BY 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+   "retrieved": "2026-10-16",
+   "evidence": "evidence/incompetech-licenses-2026-10-16.html",
+   "attribution": "\"Allada\" Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 (creativecommons.org/licenses/by/4.0)",
+   "edited": "first 120 s, 4 s fade-out",
+   "status": "ok",
+   "listened": false
+  },
+  {
+   "id": "incompetech-accralate",
+   "file": "tracks/incompetech-accralate.mp3",
+   "title": "Accralate",
+   "artist": "Kevin MacLeod",
+   "genres": [
+    "afrobeat"
+   ],
+   "mood": "lazy drum ensemble, grooving",
+   "length_s": 120,
+   "source_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Accralate.mp3",
+   "licence": "CC BY 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+   "retrieved": "2026-10-16",
+   "evidence": "evidence/incompetech-licenses-2026-10-16.html",
+   "attribution": "\"Accralate\" Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 (creativecommons.org/licenses/by/4.0)",
+   "edited": "first 120 s, 4 s fade-out",
+   "status": "ok",
+   "listened": false
+  },
+  {
+   "id": "incompetech-tafi-maradi-no-voice",
+   "file": "tracks/incompetech-tafi-maradi-no-voice.mp3",
+   "title": "Tafi Maradi no voice",
+   "artist": "Kevin MacLeod",
+   "genres": [
+    "afrobeat"
+   ],
+   "mood": "percussion and shakers, upbeat",
+   "length_s": 120,
+   "source_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Tafi%20Maradi%20no%20voice.mp3",
+   "licence": "CC BY 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+   "retrieved": "2026-10-16",
+   "evidence": "evidence/incompetech-licenses-2026-10-16.html",
+   "attribution": "\"Tafi Maradi no voice\" Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 (creativecommons.org/licenses/by/4.0)",
+   "edited": "first 120 s, 4 s fade-out",
+   "status": "ok",
+   "listened": false
+  },
+  {
+   "id": "incompetech-bossa-antigua",
+   "file": "tracks/incompetech-bossa-antigua.mp3",
+   "title": "Bossa Antigua",
+   "artist": "Kevin MacLeod",
+   "genres": [
+    "latin"
+   ],
+   "mood": "relaxed bossa nova",
+   "length_s": 120,
+   "source_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Bossa%20Antigua.mp3",
+   "licence": "CC BY 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+   "retrieved": "2026-10-16",
+   "evidence": "evidence/incompetech-licenses-2026-10-16.html",
+   "attribution": "\"Bossa Antigua\" Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 (creativecommons.org/licenses/by/4.0)",
+   "edited": "first 120 s, 4 s fade-out",
+   "status": "ok",
+   "listened": false
+  },
+  {
+   "id": "incompetech-samba-isobel",
+   "file": "tracks/incompetech-samba-isobel.mp3",
+   "title": "Samba Isobel",
+   "artist": "Kevin MacLeod",
+   "genres": [
+    "latin"
+   ],
+   "mood": "bright samba",
+   "length_s": 120,
+   "source_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Samba%20Isobel.mp3",
+   "licence": "CC BY 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+   "retrieved": "2026-10-16",
+   "evidence": "evidence/incompetech-licenses-2026-10-16.html",
+   "attribution": "\"Samba Isobel\" Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 (creativecommons.org/licenses/by/4.0)",
+   "edited": "first 120 s, 4 s fade-out",
+   "status": "ok",
+   "listened": false
+  },
+  {
+   "id": "incompetech-arroz-con-pollo",
+   "file": "tracks/incompetech-arroz-con-pollo.mp3",
+   "title": "Arroz Con Pollo",
+   "artist": "Kevin MacLeod",
+   "genres": [
+    "latin"
+   ],
+   "mood": "Cuban-style, bouncy",
+   "length_s": 120,
+   "source_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Arroz%20Con%20Pollo.mp3",
+   "licence": "CC BY 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+   "retrieved": "2026-10-16",
+   "evidence": "evidence/incompetech-licenses-2026-10-16.html",
+   "attribution": "\"Arroz Con Pollo\" Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 (creativecommons.org/licenses/by/4.0)",
+   "edited": "first 120 s, 4 s fade-out",
+   "status": "ok",
+   "listened": false
+  },
+  {
+   "id": "incompetech-cuban-sandwich",
+   "file": "tracks/incompetech-cuban-sandwich.mp3",
+   "title": "Cuban Sandwich",
+   "artist": "Kevin MacLeod",
+   "genres": [
+    "latin"
+   ],
+   "mood": "Cuban-style, relaxed",
+   "length_s": 120,
+   "source_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Cuban%20Sandwich.mp3",
+   "licence": "CC BY 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+   "retrieved": "2026-10-16",
+   "evidence": "evidence/incompetech-licenses-2026-10-16.html",
+   "attribution": "\"Cuban Sandwich\" Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 (creativecommons.org/licenses/by/4.0)",
+   "edited": "first 120 s, 4 s fade-out",
+   "status": "ok",
+   "listened": false
+  },
+  {
+   "id": "incompetech-no-frills-salsa",
+   "file": "tracks/incompetech-no-frills-salsa.mp3",
+   "title": "No Frills Salsa",
+   "artist": "Kevin MacLeod",
+   "genres": [
+    "latin"
+   ],
+   "mood": "salsa, bright",
+   "length_s": 120,
+   "source_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/No%20Frills%20Salsa.mp3",
+   "licence": "CC BY 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+   "retrieved": "2026-10-16",
+   "evidence": "evidence/incompetech-licenses-2026-10-16.html",
+   "attribution": "\"No Frills Salsa\" Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 (creativecommons.org/licenses/by/4.0)",
+   "edited": "first 120 s, 4 s fade-out",
+   "status": "ok",
+   "listened": false
+  },
+  {
+   "id": "incompetech-montego",
+   "file": "tracks/incompetech-montego.mp3",
+   "title": "Montego",
+   "artist": "Kevin MacLeod",
+   "genres": [
+    "latin"
+   ],
+   "mood": "Caribbean reggae, uplifting",
+   "length_s": 120,
+   "source_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Montego.mp3",
+   "licence": "CC BY 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+   "retrieved": "2026-10-16",
+   "evidence": "evidence/incompetech-licenses-2026-10-16.html",
+   "attribution": "\"Montego\" Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 (creativecommons.org/licenses/by/4.0)",
+   "edited": "first 120 s, 4 s fade-out",
+   "status": "ok",
+   "listened": false
+  },
+  {
+   "id": "incompetech-jazz-brunch",
+   "file": "tracks/incompetech-jazz-brunch.mp3",
+   "title": "Jazz Brunch",
+   "artist": "Kevin MacLeod",
+   "genres": [
+    "jazz"
+   ],
+   "mood": "bright, relaxed combo",
+   "length_s": 120,
+   "source_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Jazz%20Brunch.mp3",
+   "licence": "CC BY 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+   "retrieved": "2026-10-16",
+   "evidence": "evidence/incompetech-licenses-2026-10-16.html",
+   "attribution": "\"Jazz Brunch\" Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 (creativecommons.org/licenses/by/4.0)",
+   "edited": "first 120 s, 4 s fade-out",
+   "status": "ok",
+   "listened": false
+  }
+ ]
+}

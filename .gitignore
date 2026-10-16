@@ -1,0 +1,4 @@
+node_modules/
+audio/tracks/
+.env
+*.tmp.mp4

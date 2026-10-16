@@ -1,0 +1,77 @@
+{
+  "id": "pr-20261013-2",
+  "slot": "2026-10-13T13:00:00Z",
+  "role": "Who played that?",
+  "genre": "funk",
+  "pillar": "Musician and collaborator focus",
+  "profile": "polyrhythm_studio",
+  "handle": "@polyrhythmzik",
+  "topic_source": "auto (no reply)",
+  "subject_hint": "Bill Withers — Use Me (1972) — The groove under Withers's vocal belongs to drummer James Gadson, with Melvin Dunlap on bass and Ray Jackson on clavinet; on Still Bill the three also share production credits. Notes: Production credit is on the album page (https://en.wikipedia.org/wiki/Still_Bill): Withers and Ray Jackson on all tracks; Blackmon, Dunlap and Gadson on tracks 1–10. Check that Use Me is one of tracks 1–10. The album page says the musicians came from the Watts 103rd Street Rhythm Band but does not name which ones: do not tie Gadson to the band without a second source. Single release month conflicts (August vs September 1972).",
+  "artist": "Bill Withers; James Gadson (drums, percussion), with Melvin Dunlap (bass) and Ray Jackson (clavinet)",
+  "work": "Use Me, from Still Bill (Sussex, 1972; recorded at Record Plant, Los Angeles)",
+  "calendar": null,
+  "source_url": "https://en.wikipedia.org/wiki/Use_Me_(Bill_Withers_song)",
+  "format": "Credit spotlight",
+  "media": "clip",
+  "visual": {
+    "format": "clip",
+    "genre": "funk",
+    "size": "1080x1350",
+    "seed": 372,
+    "handle": "@polyrhythmzik",
+    "note": "Original graphic",
+    "audio": "mixkit-842",
+    "card": {
+      "kicker": "Who played that?",
+      "title": "The players under “Use Me”",
+      "sub": "Bill Withers · Still Bill · Sussex, 1972",
+      "credits": [
+        [
+          "Drums —",
+          "James Gadson"
+        ],
+        [
+          "Bass —",
+          "Melvin Dunlap"
+        ],
+        [
+          "Clavinet —",
+          "Ray Jackson"
+        ]
+      ]
+    },
+    "scenes": [
+      {
+        "kicker": "Who played that?",
+        "title": "“Use Me”, 1972",
+        "sub": "Bill Withers, from the album Still Bill (Sussex Records).",
+        "dur": 3.5
+      },
+      {
+        "kicker": "Who played that?",
+        "title": "James Gadson, drums",
+        "sub": "Drums and percussion, recorded at Record Plant, Los Angeles.",
+        "dur": 4
+      },
+      {
+        "kicker": "Who played that?",
+        "title": "Melvin Dunlap, bass",
+        "sub": "With Ray Jackson on clavinet and Withers on vocals and acoustic guitar.",
+        "dur": 4
+      },
+      {
+        "kicker": "Who played that?",
+        "title": "Also co-producers",
+        "sub": "All three are credited producers, with Bill Withers and Benorce Blackmon.",
+        "dur": 4
+      },
+      {
+        "kicker": "Who played that?",
+        "title": "The players under “Use Me”",
+        "sub": "Bill Withers · Still Bill · Sussex, 1972",
+        "dur": 4
+      }
+    ]
+  }
+}

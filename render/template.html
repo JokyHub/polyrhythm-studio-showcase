@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>WeLoveJazz render</title>
+<style>
+  @font-face { font-family: "Fraunces"; src: url("fonts/Fraunces.ttf"); font-weight: 100 900; }
+  @font-face { font-family: "Inter Tight"; src: url("fonts/InterTight.ttf"); font-weight: 100 900; }
+  :root { --ink: #15120f; --paper: #f3ead8; --brass: #e0aa45; --blue: #7d9cc4; --muted: #b9ad97; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { background: var(--ink); overflow: hidden; }
+  #stage { position: relative; width: var(--w); height: var(--h); background: var(--ink); color: var(--paper);
+    font-family: "Inter Tight", sans-serif; overflow: hidden; }
+  svg#motif { position: absolute; inset: 0; width: 100%; height: 100%; }
+  .layer { position: absolute; left: 88px; right: 88px; }
+  .kicker { top: 96px; font-weight: 600; font-size: 30px; letter-spacing: .16em; text-transform: uppercase; color: var(--brass); }
+  .body { top: 46%; bottom: 300px; display: flex; flex-direction: column; justify-content: flex-start; gap: 28px; }
+  .title { font-family: "Fraunces", serif; font-weight: 560; line-height: 1.04; letter-spacing: -.01em; }
+  .sub { font-size: 44px; line-height: 1.3; color: var(--paper); opacity: .86; }
+  .credits { bottom: calc(150px + var(--pad, 0px)); font-size: 36px; line-height: 1.5; color: var(--muted); }
+  .credits b { color: var(--paper); font-weight: 600; }
+  .foot { bottom: calc(72px + var(--pad, 0px)); display: flex; justify-content: space-between; font-size: 28px; color: var(--muted); letter-spacing: .04em; }
+  .rule { position: absolute; left: 88px; right: 88px; bottom: calc(124px + var(--pad, 0px)); height: 2px; background: var(--brass); opacity: .5; }
+  /* Tall (9:16, TikTok): keep text clear of the app's top bar, caption area and right-hand buttons. */
+  .tall .kicker { top: 250px; }
+  .tall .body { top: 40%; right: 170px; }
+  .tall .credits { right: 170px; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <svg id="motif" aria-hidden="true"></svg>
+  <div class="layer kicker" id="kicker"></div>
+  <div class="layer body" id="body"><div class="title" id="title"></div><div class="sub" id="sub"></div></div>
+  <div class="layer credits" id="credits"></div>
+  <div class="rule"></div>
+  <div class="layer foot"><span id="handle"></span><span id="note"></span></div>
+</div>
+<script>
+(() => {
+  const B = window.BRIEF, [W, H] = (B.size || '1080x1350').split('x').map(Number);
+  const S = document.getElementById('stage');
+  S.style.setProperty('--w', W + 'px'); S.style.setProperty('--h', H + 'px');
+  const tall = H / W > 1.6, pad = tall ? 340 : 0;
+  S.classList.toggle('tall', tall); S.style.setProperty('--pad', pad + 'px');
+  const $ = id => document.getElementById(id);
+  const NS = 'http://www.w3.org/2000/svg', svg = $('motif');
+  svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
+  const el = (n, a) => { const e = document.createElementNS(NS, n); for (const k in a) e.setAttribute(k, a[k]); svg.appendChild(e); return e; };
+
+  const ease = t => t <= 0 ? 0 : t >= 1 ? 1 : 1 - Math.pow(1 - t, 3);
+  const rnd = (s => () => (s = (s * 9301 + 49297) % 233280) / 233280)(B.seed || 7);
+  const L = 88, R0 = W - 88, top = tall ? 380 : 210, band = tall ? 180 : 136; // motif band: y from top to top + band
+
+  // One accent colour and one abstract rhythmic motif per genre family. Each motif returns update(t).
+  const GENRES = {
+    // Jazz: a five-line staff with stacked "voicing" bars sliding in, like an arranger's score.
+    jazz: {accent: '#e0aa45', label: 'Jazz', motif() {
+      const gap = band / 4, staff = [], bars = [];
+      for (let i = 0; i < 5; i++) staff.push(el('line', {x1: L, x2: R0, y1: top + i * gap, y2: top + i * gap,
+        stroke: '#f3ead8', 'stroke-opacity': .18, 'stroke-width': 2}));
+      for (let i = 0; i < 18; i++) {
+        const y = top - gap / 2 + Math.floor(rnd() * 9) * gap / 2 + 4;
+        const x = L + (i / 18) * (R0 - L) + rnd() * 20, w = Math.min(50 + rnd() * 160, R0 / 1.1 - x);
+        const fill = rnd() < .62 ? '#e0aa45' : (rnd() < .5 ? '#7d9cc4' : '#f3ead8');
+        bars.push({e: el('rect', {x, y: y - 9, width: w, height: 18, rx: 9, fill}), w, d: i * .11 + rnd() * .3});
+      }
+      return t => {
+        staff.forEach((l, i) => l.setAttribute('x2', L + (R0 - L) * ease((t - i * .06) / .9)));
+        bars.forEach((b, i) => { const k = ease((t - b.d) / 1.2);
+          b.e.setAttribute('width', Math.max(0, b.w * k * (1 + .1 * Math.sin(t * 1.1 + i * 1.7))));
+          b.e.setAttribute('opacity', .25 + .75 * k); });
+      };
+    }},
+    // Funk: a syncopated bass line drawn as a stepped path, with a playhead riding the groove.
+    funk: {accent: '#ef6a3a', label: 'Funk & soul', motif() {
+      const steps = 32, lv = [], pts = [];
+      for (let i = 0; i < steps; i++) lv.push(i % 8 === 0 ? 3 : (rnd() < .45 ? Math.floor(rnd() * 4) : lv[i - 1] ?? 1));
+      lv.forEach((v, i) => { const x = L + i * (R0 - L) / steps, y = top + band - 12 - v * (band - 24) / 3;
+        pts.push(`${x},${y}`, `${x + (R0 - L) / steps},${y}`); });
+      el('line', {x1: L, x2: R0, y1: top + band, y2: top + band, stroke: '#f3ead8', 'stroke-opacity': .18, 'stroke-width': 2});
+      const path = el('polyline', {points: pts.join(' '), fill: 'none', stroke: '#ef6a3a', 'stroke-width': 8,
+        'stroke-linejoin': 'round', 'stroke-linecap': 'round'});
+      const len = path.getTotalLength(); path.style.strokeDasharray = len;
+      const head = el('circle', {r: 13, fill: '#f3ead8'});
+      return t => {
+        path.style.strokeDashoffset = len * (1 - ease(t / 2.2));
+        const p = path.getPointAtLength(len * ((t * .12) % 1)); head.setAttribute('cx', p.x); head.setAttribute('cy', p.y);
+        head.setAttribute('opacity', ease((t - 1.8) / .6));
+      };
+    }},
+    // Afrobeat & West African: interlocking parts on a 12-pulse cycle (bell, shaker, drum), lit by a moving pulse.
+    afrobeat: {accent: '#5fbf6e', label: 'Afrobeat & West Africa', motif() {
+      const rows = [[1,0,1,0,1,1,0,1,0,1,0,1], [1,1,1,1,1,1,1,1,1,1,1,1], [1,0,0,1,0,0,1,0,0,1,0,0]];
+      const cols = ['#5fbf6e', '#f3ead8', '#7d9cc4'], cells = [], n = 12, cw = (R0 - L) / n;
+      rows.forEach((r, j) => r.forEach((on, i) => { const cx = L + cw * (i + .5), cy = top + 22 + j * (band - 44) / 2;
+        cells.push({e: el('circle', {cx, cy, r: on ? 15 : 5, fill: on ? cols[j] : '#f3ead8', 'fill-opacity': on ? 1 : .2}), i, on}); }));
+      return t => { const beat = Math.floor(t * 4) % n;
+        cells.forEach(c => { const k = ease((t - c.i * .06) / .5);
+          c.e.setAttribute('opacity', k * (c.on && c.i === beat ? 1 : c.on ? .55 : 1)); }); };
+    }},
+    // Latin & Caribbean: a 3-2 son clave on a 16-step timeline, each stroke ringing out as a widening circle.
+    latin: {accent: '#3fb8a9', label: 'Latin & Caribbean', motif() {
+      const n = 16, hits = [0, 3, 6, 10, 12], cw = (R0 - L) / n, cy = top + band / 2, rings = [];
+      el('line', {x1: L, x2: R0, y1: cy, y2: cy, stroke: '#f3ead8', 'stroke-opacity': .25, 'stroke-width': 2});
+      for (let i = 0; i < n; i++) el('circle', {cx: L + cw * (i + .5), cy, r: 4, fill: '#f3ead8', 'fill-opacity': .35});
+      hits.forEach((h, k) => { const cx = L + cw * (h + .5);
+        rings.push({h, ring: el('circle', {cx, cy, r: 18, fill: 'none', stroke: '#3fb8a9', 'stroke-width': 4}),
+          dot: el('circle', {cx, cy, r: 18, fill: '#3fb8a9'}), d: k * .18}); });
+      return t => { const step = (t * 6) % n;
+        rings.forEach(r => { const since = (step - r.h + n) % n / 6; // seconds since this stroke
+          r.dot.setAttribute('opacity', ease((t - r.d) / .5));
+          r.ring.setAttribute('r', 18 + since * 70); r.ring.setAttribute('opacity', t > r.d ? Math.max(0, 1 - since * 1.6) : 0); }); };
+    }}
+  };
+  const G = GENRES[B.genre] || GENRES.jazz;
+  S.style.setProperty('--brass', G.accent);
+  $('stage').querySelector('.rule').style.background = G.accent;
+  const motif = G.motif();
+
+  // Text fitting: shrink the title until the body block fits.
+  const fit = (max, min) => {
+    const t = $('title'), b = $('body');
+    let s = max; t.style.fontSize = s + 'px';
+    while (s > min && (b.scrollHeight > b.clientHeight || t.scrollWidth > t.clientWidth)) t.style.fontSize = (s -= 4) + 'px';
+  };
+
+  // Scenes: clip = B.scenes (each ~dur s); card = one scene built from B.card.
+  const card = B.card || {};
+  // B.animate (set by render.js --vertical): a card played as a short clip — title first, then subtitle and credits.
+  const isClip = B.format === 'clip' || !!B.animate;
+  const scenes = B.format === 'clip' ? B.scenes : B.animate
+    ? [{title: card.title, dur: 3.5}, {title: card.title, sub: card.sub, dur: 6.5}]
+    : [{kicker: card.kicker, title: card.title, sub: card.sub, dur: 2}];
+  let acc = 0; scenes.forEach(s => { s.t0 = acc; acc += s.dur || 4; s.t1 = acc; });
+  const duration = acc;
+  $('handle').textContent = B.handle || '';
+  $('note').textContent = B.note || 'Original graphic';
+  $('credits').innerHTML = (card.credits || []).map(c => `${c[0]} <b>${c[1]}</b>`).join('<br>');
+
+  let shown = -1;
+  const show = i => {
+    if (i === shown) return; shown = i; const s = scenes[i];
+    $('kicker').textContent = s.kicker || card.kicker || '';
+    $('title').textContent = s.title || ''; $('sub').textContent = s.sub || '';
+    $('sub').style.display = s.sub ? '' : 'none';
+    // Keep the text block clear of the credits whenever they are visible (card, or last clip scene).
+    const creditsShown = !isClip || i === scenes.length - 1;
+    const ch = creditsShown ? $('credits').offsetHeight : 0;
+    $('body').style.bottom = (ch ? 150 + ch + 48 : 300) + pad + 'px';
+    fit(s.size || (B.format === 'clip' ? 104 : 96), 48);
+  };
+
+  window.R = {
+    duration,
+    stills: isClip ? scenes.map(s => Math.min(s.t1 - .05, s.t0 + 1.6)) : [duration - .01],
+    seek(t) {
+      motif(t);
+      const i = scenes.findIndex(s => t < s.t1), idx = i < 0 ? scenes.length - 1 : i;
+      show(idx);
+      const s = scenes[idx], local = t - s.t0, out = s.t1 - t, last = idx === scenes.length - 1;
+      // The first scene is fully visible from frame 0: the opening frame is the hook, never an empty screen.
+      const a = Math.min(idx === 0 ? 1 : ease(local / .6), last ? 1 : ease(out / .4));
+      $('body').style.opacity = a; $('body').style.transform = `translateY(${(1 - a) * 30}px)`;
+      $('credits').style.opacity = isClip ? (last ? ease(local / .8) : 0) : 1;
+    }
+  };
+  R.seek(0);
+})();
+</script>
+</body>
+</html>

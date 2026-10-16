@@ -1,0 +1,1 @@
+The players under Bill Withers's "Use Me" (Still Bill, Sussex, 1972): James Gadson on drums, Melvin Dunlap on bass, Ray Jackson on clavinet, all three credited co-producers. To my ear, Gadson's trick was how little he played; hear clavinet and bass answer between vocal lines.

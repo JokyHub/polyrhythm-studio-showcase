@@ -1,0 +1,47 @@
+{
+  "id": "pr-20261016-1",
+  "slot": "2026-10-16T08:00:00Z",
+  "role": "On this day",
+  "genre": "jazz",
+  "pillar": "Deep cuts and rediscoveries",
+  "profile": "polyrhythm_studio",
+  "handle": "@polyrhythmzik",
+  "topic_source": "auto (no reply)",
+  "subject_hint": "Art Blakey and the Afro-Drum Ensemble — The African Beat (recorded 1962) — On the anniversary of Blakey's death, a less-played corner of his catalogue: a Blue Note date built around Nigerian singer and talking-drum player Solomon Ilori, who wrote four of its seven pieces. Notes: Death date and place (lung cancer, St. Vincent's, Manhattan) on both pages; 36th anniversary, not a round number: write 'died on this day in 1990', no anniversary count needed. Album facts, personnel and composers from the album page: Ilori composed 'Prayer', 'Ife L'ayo', 'Ero Ti Nr'Ojeje', 'Ayiko, Ayiko'; 'Love, The Mystery of' is by Guy Warren (Guy Warren is in the log 2026-10-12, expired: mention only as composer credit, not as the subject). Blakey's West African stay (1948-49 per Wikipedia; 'nearly two years' per EBSCO; Blakey himself quoted as saying about two years) and his discouraging comparisons with African drumming: both pages; attribute and avoid a firm duration. Ilori's own biography (birthplace, later life) not yet sourced: find a page before stating it. Nat Hentoff wrote the liner notes. Slot 3 is also jazz under the rotation: choosing #1 with #5 or #6 gives two jazz posts on the day. RESEARCH (2026-10-15): see sources.md. Do NOT say Ilori wrote four of seven pieces (single source); say the album opens with Ilori's Prayer / Ilori credited with several pieces. No Ilori biography beyond Nigerian singer and percussionist. Blakey West Africa: \"after his 1948 trip\", no duration.",
+  "artist": "Art Blakey (drums, timpani, telegraph drum, gong) and the Afro-Drum Ensemble: Solomon G. Ilori (vocals, talking drum, pennywhistle), Yusef Lateef (tenor saxophone, flute, oboe, cow horn, mbira), Ahmed Abdul-Malik (bass), Chief Bey, Montego Joe, Robert Crowder, James Ola Folami, Garvin Masseaux (percussion), Curtis Fuller (timpani)",
+  "work": "The African Beat (Blue Note BLP 4097; recorded January 24, 1962, Van Gelder Studio, Englewood Cliffs; released November 1962; produced by Alfred Lion; engineer Rudy Van Gelder)",
+  "calendar": "Art Blakey died at St. Vincent's Hospital in Manhattan, New York, on October 16, 1990.",
+  "source_url": "https://en.wikipedia.org/wiki/The_African_Beat",
+  "format": "Single recommendation",
+  "media": "card",
+  "listening_track": "Ife L'ayo",
+  "listening_link": "https://music.apple.com/us/album/the-african-beat/724908010",
+  "visual": {
+    "format": "card",
+    "genre": "jazz",
+    "size": "1080x1350",
+    "seed": 416,
+    "handle": "@polyrhythmzik",
+    "note": "Original graphic",
+    "audio": "mixkit-652",
+    "card": {
+      "kicker": "On this day",
+      "title": "The African Beat",
+      "sub": "Art Blakey and the Afro-Drum Ensemble · Blue Note, 1962",
+      "credits": [
+        [
+          "Drums —",
+          "Art Blakey"
+        ],
+        [
+          "Vocals, talking drum —",
+          "Solomon G. Ilori"
+        ],
+        [
+          "Tenor sax, flute —",
+          "Yusef Lateef"
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,1 @@
+16 October 1990: Art Blakey dies in Manhattan. Hear The African Beat (Blue Note, 1962), his Afro-Drum Ensemble date with Nigerian singer and percussionist Solomon Ilori at its centre. On "Ife L'ayo", Ilori's penny whistle and Yusef Lateef's flute share the opening theme.
